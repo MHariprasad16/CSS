@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(red,green,lightyellow,blue,pink,black,yellow);
+    background: linear-gradient(to top, red,green,lightyellow,blue,pink,black,yellow);
+    background: linear-gradient(to left,red,green,lightyellow,blue,pink,black,yellow);
+    background: linear-gradient(to right, red,green,lightyellow,blue,pink,black,yellow);
+    background: linear-gradient(to top right,red,green,lightyellow,blue,pink,black,yellow);
+    background: linear-gradient(to top left,red,green,lightyellow,blue,pink,black,yellow);
+    background: linear-gradient(to bottom right,red,green,lightyellow,blue,pink,black,yellow);
+    background: linear-gradient(to bottom left,red,green,lightyellow,blue,pink,black,yellow);
+    background: linear-gradient(to right,red 0% 1%,green 1% 2%,lightyellow 2% 3%,blue 3% 4%,pink 4% 5%,black 5% 6%,yellow 6% 7%);
+    background: repeating-linear-gradient(to top right,red 0% 1%,green 1% 2%,lightyellow 2% 3%,blue 3% 4%,pink 4% 5%,black 5% 6%,yellow 6% 7%);
+
+    background: radial-gradient(red,green,lightyellow,blue,pink,black,yellow);
+    background: radial-gradient(ellipse,red,green,lightyellow,blue,pink,black,yellow);
+    background: radial-gradient(circle,red,green,lightyellow,blue,pink,black,yellow);
+    background: radial-gradient(circle,red 0% 1%,green 1% 2%,lightyellow 2% 3%,blue 3% 4%,pink 4% 5%,black 5% 6%,yellow 6% 7%);
+    background: repeating-radial-gradient(red 0% 1%,green 1% 2%,lightyellow 2% 3%,blue 3% 4%,pink 4% 5%,black 5% 6%,yellow 6% 7%);
+    
+    background: conic-gradient(red,green,lightyellow,blue,pink,black,yellow);
+    background: conic-gradient(red 0% 1%,green 1% 2%,lightyellow 2% 3%,blue 3% 4%,pink 4% 5%,black 5% 6%,yellow 6% 7%);
+    background: repeating-conic-gradient(red 0% 1%,green 1% 2%,lightyellow 2% 3%,blue 3% 4%,pink 4% 5%,black 5% 6%,yellow 6% 7%);
+    
+
+}

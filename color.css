@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heyy{
+    border:10px solid rgb(103, 155, 234);
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 0, 0.349);
+    background-color: rgb(130, 120, 0);
+    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.349);
+
+    background-color: #cdb;
+    background-color: #00ff00;
+    background-color: #ff0000;
+    background-color: #0000ff;
+    background-color: #000;
+    background-color: #f0f;
+    background-color: #ff00ff;
+    background-color: #0f0;
+
+
+
+}

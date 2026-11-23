@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 380px;
+    width: 380px;
+    border: 5px solid black;
+}
+[alt="Doremon"]{
+    position: absolute;
+    z-index: 1;
+
+}
+[alt="Nobitha"]{
+    position: absolute;
+    z-index: 2;
+}
+[alt="DoremonAndNobitha"]{
+    position: absolute;
+    z-index: 3;
+}

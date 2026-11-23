@@ -1,0 +1,12 @@
+h1{
+    color: pink;
+}
+#hey{
+    color: blue;
+}
+.hello{
+    color: brown;
+}
+*{
+    color: yellow !important;
+}

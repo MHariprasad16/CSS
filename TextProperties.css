@@ -1,0 +1,57 @@
+a{
+    text-decoration-line: none;
+}
+
+
+
+p{
+    text-decoration-line:none;
+    text-decoration-line:overline;
+    text-decoration-line:line-through;
+    text-decoration-line:underline;
+
+    text-decoration-style:solid;
+    text-decoration-style:dashed;
+    text-decoration-style:dotted;
+    text-decoration-style:double;
+    text-decoration-style:wavy;
+
+
+    text-decoration-color:green;
+
+    text-decoration:underline 3px dotted rgb(29, 209, 95);
+
+
+    text-indent: 100px;
+
+
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+    word-spacing: normal;
+    word-spacing: 10px;
+
+    letter-spacing:normal;
+    letter-spacing: 2px;
+
+    line-height: normal;
+    line-height: 100px;
+
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+
+    text-align-last: right;
+    text-align-last: left;
+    text-align-last: center;
+    text-align-last: justify;
+
+    
+    
+    
+    
+    
+
+}

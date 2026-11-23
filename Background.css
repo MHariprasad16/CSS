@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 20px solid lightcoral;
+    height: 100vh;
+    background-color:lightgoldenrodyellow;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CArAsx7v67_DVLCWQTd0xjFR-4VG0TPNeoDqRlLANg&s);
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position: top center;
+    background-position: top right;
+    background-position: center left;
+    background-position: center center;
+    background-position: center right;
+    background-position: bottom left;
+    background-position: bottom center;
+    background-position: bottom right;
+    background-position: 200px 100px;
+    background-position: top left;
+
+    background-size: 300px 300px;
+    background-size: 200px;
+    background-size: contain;
+    background-size: cover;
+    font-size: 50px;
+    
+
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+    background: lightgreen url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ivHtQBfF1hlfMA1Nz8QKlkw6d2DL6WKfHMVgUmOOdW9heqw-xYmxuhLl&s=10) no-repeat fixed center/1000px 1000px;
+    
+    
+    
+
+    
+}
+body{
+    color: rgb(231, 229, 229);
+}

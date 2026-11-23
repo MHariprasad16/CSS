@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 80px;
+    /* border: 5px solid rgb(18, 1, 1); */
+    display: flex;
+}
+
+
+#one{
+    flex-basis: 45%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#img{
+    height: 60px;
+}
+#span{
+    position: absolute;
+    justify-content: center;
+    top: 3px;
+    left: 280px;
+    font-size: 15px;
+}
+
+
+#two{
+  
+    flex-basis: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    height: 40px;
+    flex-basis: 50%;
+    border: 1px solid black;
+    border-radius:  22px ;
+    font-size:20px ;
+    cursor: pointer;
+}
+#button{
+   height: 40px;
+   flex-basis: 9%;
+   border: 1px solid #aaa;
+   border-radius: 0 22px 22px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#micccc{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    margin-left: 12px;
+}
+#three{
+    
+  
+    flex-basis: 55%;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: center;
+}
+#Span2{
+    font-size: 20px;
+      background-color: #f2f2f2;
+    border-radius:  22px ;
+}
+#bell{
+    font-size: 20px;
+}
+#span3{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #5614f0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

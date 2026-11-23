@@ -1,0 +1,26 @@
+
+/* ID(#) */
+#num1{
+    color: white;
+    background-color: blueviolet;
+}
+/* Class(.) */
+.num1{
+    color: white;
+    background-color: red;
+}
+/* Tagname */
+input{
+    color: white;
+    background-color: peru;
+}
+/* Grouping(,) */
+h4,h5,h6{
+    color: white;
+    background-color:palegoldenrod;
+}
+/* universal(*)  */
+*{
+    border: 5px solid lightgreen;
+}
+    

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent{
+    height:700px;
+    width: 950px;
+    left: 200px;
+    bottom: -200px;
+    border: 10px solid rgb(30, 2, 13) ;
+    margin: 80px;
+    padding: 10px;
+    padding-right: 30px;
+    position: relative;
+    background-color: rgb(160, 160, 122);
+    
+
+}
+img{ 
+    height: 600px;
+    width: 600px;
+   
+    
+}
+[alt="Pepsi"]{
+    position: absolute;
+   
+    left: 20px;
+
+}
+[alt="Burger"]{
+    position:absolute;
+    z-index: 3;
+    left: 120px;
+    
+
+}
+[alt="Fries"]{
+    position: absolute;
+  
+    right: 10px;
+    
+}

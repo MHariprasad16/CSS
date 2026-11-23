@@ -1,0 +1,25 @@
+#dabba{
+    height: 300px;
+    width: 200px;
+    border:5px dotted rgb(25, 26, 27);
+    background-color: rgb(168, 224, 243);
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+
+    
+
+
+}
+#frame{
+    height: 400px;
+    width: 600px;
+    border:5px solid rgb(25, 26, 27);
+    outline: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+   
+
+}

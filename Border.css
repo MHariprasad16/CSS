@@ -1,0 +1,48 @@
+h1{
+    color:brown;
+    border-width: 10px;
+    border-style: solid;
+
+/* Border Width */
+    border-top-width: 10px;
+    border-right-width: 20px;
+    border-bottom-width: 30px;
+    border-left-width: 40px;
+
+/* 7 types of styles */
+    border-style: none;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: ridge;
+    border-style: groove;
+
+    /* Border styles */
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style:ridge; 
+
+    /* Border color */
+    border-top-color:blanchedalmond;
+    border-right-color:pink;
+    border-bottom-color:red;
+    border-left-color:green;
+
+    /* we can border to add all 3 in one */
+    border: 15px yellowgreen dotted;    
+}
+div{
+    border: 10px solid hotpink;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-top-top-radius: 30px;
+    border-top-bottom-radius: 40px;
+}
+div:hover{
+    border-radius: 50%;
+}

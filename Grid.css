@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent{
+    height: 700px;
+    width: 700px;
+    border: 5px  solid black;
+    background-color:aquamarine;
+    display: grid;
+
+    /* 2 Rows 2 cols */
+    grid-template-rows: 100px 200px;
+    grid-template-columns: 200px 100px;
+
+    /* 3 Rows 2 cols */
+    grid-template-rows: 100px repeat(2,200px);
+    grid-template-columns: 200px 100px;
+
+    /* 2 Rows 3 cols */
+    grid-template-rows: 100px 200px ;
+    grid-template-columns: 200px repeat(2,auto);
+
+    /* 4 Rows 3 cols */
+    grid-template-rows: 100px 200px 200px 100px;
+    grid-template-columns: 100px 3fr 1fr;
+
+    /* row-gap: 10px;
+    column-gap: 25px; */
+
+
+    
+}
+#div{
+    border: 2px solid black;
+}
+#one{
+    background-color: rgb(212, 213, 198);
+    
+}
+#two{
+    background-color: rgba(23, 140, 53, 0.701);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    grid-area: 2/2/3/3;
+}
+#three{
+    background-color: rgb(135, 236, 40);
+}
+#foure{
+    background-color: rgba(236, 73, 184, 0.792);
+    grid-column: 1/3;
+}
+#five{
+    background-color: rgb(252, 0, 0);
+    
+}
+#six{
+    background-color: rgba(53, 13, 214, 0.792);
+}
+#seven{
+    background-color: rgb(17, 19, 4);
+}
+#eight{
+    background-color: rgba(239, 244, 245, 0.701);
+}
+#nine{
+    background-color: rgba(87, 210, 255, 0.44);
+}
+#ten{
+    background-color: rgba(205, 240, 8, 0.792);
+}
+#eleven{
+    background-color: rgb(85, 64, 64);
+}
+#2vel{
+    background-color: #de8f8dca;
+}

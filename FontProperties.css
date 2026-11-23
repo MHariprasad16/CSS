@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alien+Block&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alien+Block&family=Dancing+Script:wght@400..700&display=swap');
+
+p{
+    font-style: normal;
+    font-style: oblique;
+    font-style: italic;
+    
+
+    font-size: large;
+    font-size: xx-large;
+    font-size: smaller;
+    font-size:xx-small;
+    font-size: large;
+    font-size: 25px;
+
+    /* font-weight: 600;
+    font-weight: 600; */
+
+    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Honk",system-ui;
+    font-family: "poppins",sans-serif;
+    font-family: "Alien Block", sans-serif;
+    font-weight: 900;
+    font-family: "Dancing Script", cursive;
+    color: #6245d6;
+    
+    
+
+
+    /* font: italic 400 25px ; */
+
+    
+
+}
